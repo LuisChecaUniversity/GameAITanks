@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BaseTank.cpp" />
+    <ClCompile Include="DumbTank.cpp" />
+    <ClCompile Include="PickUpManager.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ProjectileManager.cpp" />
+    <ClCompile Include="Collisions.cpp" />
+    <ClCompile Include="ControlledTank.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="GameScreenLevel1.cpp" />
+    <ClCompile Include="GameScreenManager.cpp" />
+    <ClCompile Include="LevelMap.cpp" />
+    <ClCompile Include="ObstacleManager.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TankManager.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="TinyXML\tinystr.cpp" />
+    <ClCompile Include="TinyXML\tinyxml.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="Waypoint.cpp" />
+    <ClCompile Include="WaypointManager.cpp" />
+    <ClCompile Include="Tank_c008101c.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseTank.h" />
+    <ClInclude Include="DumbTank.h" />
+    <ClInclude Include="PickUpManager.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ProjectileManager.h" />
+    <ClInclude Include="C2DMatrix.h" />
+    <ClInclude Include="Collisions.h" />
+    <ClInclude Include="Commons.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="ControlledTank.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="GameScreenLevel1.h" />
+    <ClInclude Include="GameScreenManager.h" />
+    <ClInclude Include="LevelMap.h" />
+    <ClInclude Include="ObstacleManager.h" />
+    <ClInclude Include="TankManager.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="TinyXML\tinystr.h" />
+    <ClInclude Include="TinyXML\tinyxml.h" />
+    <ClInclude Include="Waypoint.h" />
+    <ClInclude Include="WaypointManager.h" />
+    <ClInclude Include="Tank_c008101c.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\gl\glut32.lib" />
+    <Library Include="SDL\SDL2.lib" />
+    <Library Include="SDL\SDL2main.lib" />
+    <Library Include="SDL\SDL2_image.lib" />
+    <Library Include="SDL\SDL2_mixer.lib" />
+  </ItemGroup>
+</Project>

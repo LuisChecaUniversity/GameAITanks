@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+ <tank studentName="ControlledTank" tankType="3" tankPath="Images\TankMedium2.png" manPath="Images\TankMediumMan2.png" x="250" y="150" health="100" bullets="100" rockets="100" mines="5" turnRate="5" fuel="60" mass="1" maxspeed="75" leftCannon="1" rightCannon="1"/>
+ <tank studentName="Tank_c008101c" tankType="3" tankPath="Images\TankMedium2.png" manPath="Images\TankMediumMan2.png" x="450" y="300" health="100" bullets="100000" rockets="100" mines="5" turnRate="5" fuel="60" mass="1" maxspeed="75" leftCannon="1" rightCannon="1"/>
+</data>
